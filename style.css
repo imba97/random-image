@@ -1,0 +1,112 @@
+@charset "utf-8";
+body,div,p{margin:0;padding:0;}
+.top-div
+{
+  position:relative;
+  margin:100px auto;
+  width:600px;height:200px;
+  border-radius:35px;
+  -webkit-box-shadow:3px 3px 3px #CCC;
+  -moz-box-shadow:3px 3px 3px #CCC;
+  box-shadow:3px 3px 3px #CCC;
+  /*background-color:#852e2e;*/
+  /*background-color:#4c852e;*/
+}
+#returnMsg
+{
+  position:absolute;
+  top:0;left:0;
+  width:600px;height:200px;
+  border-radius:35px;
+  text-align:center;
+  line-height:200px;
+  color:#FFF;
+  font-size:40px;
+  font-family:'微软雅黑';
+}
+.top-a
+{
+  position:absolute;
+  top:0;left:0;
+  width:600px;height:200px;
+  line-height:200px;
+  color:#FFF;
+  font-size:40px;
+  font-family:'微软雅黑';
+  text-align:center;
+  text-decoration:none;
+  background-color:#CCC;
+  border-radius:35px;
+  /*display:none;*/
+}
+.btn-data
+{
+  position:absolute;
+  top:0;right:0;
+  width:50px;height:50px;
+  background-color:#d95252;
+  border-radius:5px 35px 5px 10px;
+  font:400 20px '微软雅黑';
+  text-align:center;
+  color:#FFF;
+  line-height:50px;
+  text-decoration:none;
+  z-index:10;
+}
+.data-div-confirm
+{
+  position:absolute;
+  bottom:0;right:0;
+  width:50px;height:50px;
+  background-color:#FCC;
+  border-radius:10px 5px 35px 5px;
+  background-color:#366a1b;
+  font:400 20px '微软雅黑';
+  text-align:center;
+  color:#FFF;
+  line-height:50px;
+  text-decoration:none;
+  z-index:10;
+}
+.data-div
+{
+  position:absolute;
+  top:0;left:-100px;
+  width:600px;height:200px;
+  background-color:#166283;
+  border-radius:35px;
+  display:none;
+}
+.data-div-l
+{
+  position:absolute;
+  top:30px;left:0;
+  width:200px;height:170px;
+  text-align:right;
+  font:400 20px '微软雅黑';
+  color:#FFF;
+}
+.data-div-l p
+{
+  padding-right:10px;
+}
+.data-div-r
+{
+  position:absolute;
+  top:30px;right:0;
+  width:400px;height:170px;
+  text-align:left;
+}
+.data-div-r p
+{
+  padding-top:3px;
+}
+.data-div-r p input
+{
+  width:300px;
+  height:24px;
+  font:400 14px '微软雅黑';
+  border-radius:5px;
+  padding:0 3px;
+  border:none;
+}
